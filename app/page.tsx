@@ -1,13 +1,16 @@
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "@/components/Herosection/HeroSection";
 import Integrations from "@/components/Integration/Integrations";
 import Navbar from "@/components/Navbar/Navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex  min-h-screen flex-col items-center justify-between bg-gradient-to-br from-purple-800 to-cyan-400  py-24">
+    <div className="flex  max-h-screen flex-col items-center justify-between bg-black ">
+      <div className="bg-gradient-to-br from-black to-gray-700 min-h-scree">
       <Navbar></Navbar>
       <HeroSection></HeroSection>
+      </div>
+      
       <Integrations></Integrations>
     </div>
   );
