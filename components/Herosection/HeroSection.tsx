@@ -26,11 +26,11 @@ const HeroSection: React.FC = () => {
           </div>
           <Button className="mt-[3em] lg:mt-[5em] bg-gradient-to-br from-purple-800 to-cyan-400  ">Create your ChatBot</Button>
         </div>
-        <div className="block rounded-md lg:col-span-5">
-          <video autoPlay="" className="w-auto pl-10 transition-opacity ease-in duration-150 shadow-md rounded-md ring-1 ring-slate-900/10 lg:w-[448px] max-h-[497px] lg:max-h-none lg:h-[450px]" poster="https://sitespeak.ai/marketing/assets/sitespeak-chatgpt-demo-loading-8f99187c.png" oncanplay="this.style.height = 'auto';" style={{ height: 'auto' }}>
+        {/* <div className="block rounded-md lg:col-span-5">
+          <video className="w-auto pl-10 transition-opacity ease-in duration-150 shadow-md rounded-md ring-1 ring-slate-900/10 lg:w-[448px] max-h-[497px] lg:max-h-none lg:h-[450px] h-full w-full" >
             <source src="https://sitespeak.ai/marketing/assets/sitespeakai-chatgpt-demo-v5-fc59c30b.mp4" type="video/mp4" />
           </video>
-        </div>
+        </div> */}
       </div>
     </section>
   );

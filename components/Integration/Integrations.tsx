@@ -43,10 +43,10 @@ const integrations: Integration[] = [
 
 const Integrations: React.FC = () => {
   return (
-    <div className="block py-10 bg-black">
+    <div className="block py-10 bg-black pt-[4em]">
       <div className="grid grid-cols-1 sm:grid-cols-12">
       <div className="text-white px-24 lg:col-span-7  md:col-span-11 col-span-12">
-        <div className="text-4xl pb-5 font-bold">Connect ChatGPT to the apps and tools you use every day.</div>
+        <div className="text-4xl pb-5 font-semibold">Connect ChatGPT to the apps and tools you use every day.</div>
         <p className="text-[#ADB7BE] ">Install SiteSpeakAI on your site or integrate it with one of the many apps and tools you use every day.</p>
       </div>
     
